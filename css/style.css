@@ -1,0 +1,166 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+/*
+insta blue : #(76,104,215)
+*/
+
+/* ---------- Mobile ---------- */
+body {
+	padding: 70px 0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+p {
+	display: inline-block;
+}
+
+section {
+	display: block;
+	padding: 30px;
+} 
+
+img {
+	margin: 7px 0 -5px 0;
+	padding: 0 5px;
+}
+
+button {
+	display: inline-block;
+	background-color: rgb(76,104,215);
+	border-radius: 3px;
+	border: none;
+	color: white;
+	box-shadow: 1px 1px 1px black;
+	display: table-cell;
+	padding: 0 10px 10px 0;
+	text-decoration: none;
+}
+
+li {
+	display: inline;
+}
+
+footer {
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+
+#logo {
+	display: none;
+	float: left;
+}
+
+#replacer {
+	font-family: 'Cookie', cursive;
+	font-size: 70px;
+	margin: 0;
+	color: white;
+	clear: right;
+}
+
+.gradient {
+	background: #1f82c9;
+    background: -webkit-linear-gradient(#1f82c9, rgb(58,89,117)); 
+    background: -o-linear-gradient(#1f82c9, rgb(58,89,117)); 
+    background: -moz-linear-gradient(#1f82c9, rgb(58,89,117));
+    background: linear-gradient(#1f82c9, rgb(58,89,117));
+}
+
+.small-img{
+	width: 70px;
+	margin: 10px 25px 0 0;
+}
+
+.btn-login {
+	margin: 20px 30px 0 0;
+	float: right;
+}
+
+.div-set {
+	vertical-align: middle;
+	line-height: 70px;
+	padding: 10px 0;
+	height: 100px;
+	display: inline-block;
+
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.container {
+	display: inline;
+	height: 513px;
+	padding: 0;
+	margin: 50px 0;
+}
+
+.info-text {
+	background: white;
+	text-align: left;
+	padding: 0 50px;
+	margin: 0;
+	border-radius: 10px;
+	max-width: 500px;
+}
+
+.btn-bottom {
+	display: inline-block;
+}
+
+.phones {
+	display: none;
+}
+
+.center {
+	display: inline-block;
+	margin: 0 10%;
+}
+
+@media (min-width: 425px){
+	#logo{
+		display: inherit;
+		margin-right: 50px
+	}
+	#replacer {
+		display: none;
+	}
+	.small-img {
+		display: none;
+	}
+}
+
+
+/* ---------- Tablet ---------- */
+@media (min-width: 768px) {
+	section {
+		display: block;
+		padding: 30px;
+		height: 40vh;
+	} 
+
+	#logo {
+		margin-right: 80px;
+	}
+	
+	.phones {
+		display: inherit;
+	}
+
+}
+
+
+/* ---------- Desktop ---------- */
