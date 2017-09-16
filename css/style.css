@@ -11,6 +11,7 @@ insta blue : #(76,104,215)
 body {
 	padding: 70px 0;
 	margin: 0;
+
 }
 
 h1 {
@@ -49,12 +50,18 @@ button {
 
 li {
 	display: inline;
+	margin: 0 5px;
 }
 
 footer {
 	display: block;
-	position: absolute;
+	width: 100%;
+	position: fixed;
 	bottom: 0;
+	left: 0;
+	padding-bottom: 2%;
+	background: white;
+	clear: both;
 }
 
 #logo {
@@ -69,6 +76,14 @@ footer {
 	color: white;
 	clear: right;
 }
+.copyright {
+	color: black;
+}
+
+.blue {
+	color: rgb(58,89,117);
+	font-weight: bold;
+}
 
 .gradient {
 	background: #1f82c9;
@@ -76,6 +91,9 @@ footer {
     background: -o-linear-gradient(#1f82c9, rgb(58,89,117)); 
     background: -moz-linear-gradient(#1f82c9, rgb(58,89,117));
     background: linear-gradient(#1f82c9, rgb(58,89,117));
+    position: absolute;
+    top: 0;
+    height: 45%;
 }
 
 .small-img{
@@ -102,19 +120,23 @@ footer {
 }
 
 .container {
-	display: inline;
+	display: inline-block;
 	height: 513px;
 	padding: 0;
-	margin: 50px 0;
+	margin-top: 10px;
+	margin-right: 5%;
 }
 
 .info-text {
 	background: white;
 	text-align: left;
-	padding: 0 50px;
+	padding: 10px 50px 30px 50px;
 	margin: 0;
 	border-radius: 10px;
 	max-width: 500px;
+	-webkit-box-shadow: 0px -2px 26px 0px rgba(0,0,0,0.69);
+	-moz-box-shadow: 0px -2px 26px 0px rgba(0,0,0,0.69);
+	box-shadow: 0px -2px 26px 0px rgba(0,0,0,0.69);
 }
 
 .btn-bottom {
@@ -126,13 +148,13 @@ footer {
 }
 
 .center {
-	display: inline-block;
-	margin: 0 10%;
+	width: 100%;
+	padding: 5% 0 0 10%;
 }
 
 @media (min-width: 425px){
 	#logo{
-		display: inherit;
+		display: inline-block;
 		margin-right: 50px
 	}
 	#replacer {
@@ -153,14 +175,17 @@ footer {
 	} 
 
 	#logo {
-		margin-right: 80px;
+		margin-right: 40px;
 	}
 	
-	.phones {
-		display: inherit;
-	}
+	
 
 }
 
 
 /* ---------- Desktop ---------- */
+@media (min-width: 1030px){
+	.phones {
+		display: inline-block;
+	}
+}
