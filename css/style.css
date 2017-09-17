@@ -38,7 +38,7 @@ img {
 
 button {
 	display: inline-block;
-	background-color: rgb(76,104,215);
+	background-color: #5E7E9E;
 	border-radius: 3px;
 	border: none;
 	color: white;
@@ -86,11 +86,11 @@ footer {
 }
 
 .gradient {
-	background: #1f82c9;
-    background: -webkit-linear-gradient(#1f82c9, rgb(58,89,117)); 
-    background: -o-linear-gradient(#1f82c9, rgb(58,89,117)); 
-    background: -moz-linear-gradient(#1f82c9, rgb(58,89,117));
-    background: linear-gradient(#1f82c9, rgb(58,89,117));
+	background: #5E7D9D;
+    background: -webkit-linear-gradient(#5E7D9D, rgb(58,89,117)); 
+    background: -o-linear-gradient(#5E7D9D, rgb(58,89,117)); 
+    background: -moz-linear-gradient(#5E7D9D, rgb(58,89,117));
+    background: linear-gradient(#5E7D9D, rgb(58,89,117));
     position: absolute;
     top: 0;
     height: 45%;
