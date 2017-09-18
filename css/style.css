@@ -8,6 +8,15 @@ insta blue : #(76,104,215)
 */
 
 /* ---------- Mobile ---------- */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	border-bottom: 2px solid;
+}
+
 body {
 	padding: 70px 0;
 	margin: 0;
